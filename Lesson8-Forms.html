@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Describe content of this page to the browser. -->
+    <meta name="description" content="Craeting Job Application Form">
+    <meta name="author" content="Foyjul Islam Raju">
+    
+    <title>Form</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;"> Online Job Application </h1>
+    <p> <b>Fill up the form properly. Incomplete forms will be discarded </b></p>
+
+    <form> 
+        <h2> Personal Information</h2>
+        <hr>
+        <p> <b>We need your personal Information to complete the job application process. Please fill up the fileds below with correct Information.</b> </p>
+
+        <p> User Name: <input type="text"></p>
+        <p> Email Address: <input type="email"></p>
+        
+        <p> Address: <input type="text">
+        <select>
+            <option disabled selected> Select Your City </option>
+            <option> Dhaka </option>
+            <option> Sylhet </option>
+            <option> Rajshahi </option>
+            <option> Mymensing</option>
+        </select>
+        </p>
+
+        <h2>Job Selection</h2>
+        <hr>
+        <p><b>Select the job from the below. (You can apply one job at a time).</b></p>
+
+        <p>
+            Python Developer <input type="radio" name="job" value="py"><br>
+            Back End Developer <input type="radio" name="job" value="BED"><br>
+            Full Stack Developer <input type="radio" name="job" value="FSD"><br>
+            Front End Developer <input type="radio" name="job" value="FED">
+        </p>
+
+        <h2> Your Expertise </h2>
+        <hr>
+        <p> <b>Select the filed you are expert in. You can select more than one filed at a time!</b></p>
+        <p>
+            HTML <input type="checkbox" name="html" value="html"><br>
+            CSS <input type="checkbox" name="css" value="css"><br>
+            Database <input type="checkbox" name="db" value="db"><br>
+            JavaScript <input type="checkbox" name="js" value="js"><br>
+            Others <input type="text">
+        </p>
+
+        <h2> Upload Photo and CV</h2>
+        <hr>
+        <p> <b>Upload your photo and CV here. Use PNG format for image and pdf for CV </b></p>
+        <p>
+            Upload Image <input type="file" accept="image/png"><br><br>
+            Upload CV <input type="file" accept="application/pdf">
+        </p>
+
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+
+</html>
+
+            
+ 
